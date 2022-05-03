@@ -1,0 +1,143 @@
+---
+permalink: intro-family.html 
+keywords: introduction, how astra works, how Astra works, what Astra is, astra control, kubernetes, astra control service, astra control center 
+summary: Astra是Kubernetes應用程式資料生命週期管理服務、可簡化狀態應用程式的作業。輕鬆保護、備份及移轉Kubernetes工作負載、並立即建立可運作的應用程式複本。 
+---
+= Astra系列簡介
+:hardbreaks:
+:allow-uri-read: 
+:icons: font
+:imagesdir: ./media/
+
+
+NetApp Astra產品系列為雲端原生應用程式提供應用程式資料管理與儲存功能。 
+
+Astra產品包括：
+
+* * Astra Control *：使用應用程式感知的資料管理工具、在公有雲和內部部署環境中管理、保護及移動Kubernetes工作負載
++
+** * Astra Control Service*：使用NetApp管理的服務來管理公有雲中的Kubernetes工作負載。
+** * Astra Control Center*：使用自我管理的軟體來管理內部部署Kubernetes工作負載的資料。
+
+
+* * Astra Data Store*：使用Kubernetes原生的共享檔案服務來處理容器和VM工作負載、以進行企業資料管理。
+* * Astra Trident *：使用容器儲存介面（Container Storage Interface、簡稱csi）相容的儲存設備資源配置與管理功能、來處理Kubernetes工作負載、並與NetApp儲存供應商合作。
+
+
+[cols="1h,2d"]
+|===
+| 功能 | 產品 
+
+
+| 管理 | Astra Control Service Astra Control Center Astra Trident 
+
+
+| 儲存設備 | Astra資料儲存區 
+|===
+下圖顯示Astra系列生態系統。image:astra-ads-architecture-diagram-v3.png["Astra架構圖表與元件"]
+
+
+
+== Astra Control
+
+Astra Control是Kubernetes應用程式資料生命週期管理解決方案、可簡化狀態應用程式的作業。輕鬆保護、備份及移轉Kubernetes工作負載、並立即建立可運作的應用程式複本。
+
+
+
+=== 功能
+
+Astra Control為Kubernetes應用程式資料生命週期管理提供關鍵功能：
+
+* 自動管理持續儲存
+* 建立應用程式感知的隨需快照與備份
+* 自動化原則導向的快照與備份作業
+* 將應用程式和資料從一個Kubernetes叢集移轉到另一個叢集
+* 從接移到正式作業、複製應用程式
+* 視覺化應用程式健全狀況與保護狀態
+* 使用使用者介面或API來實作備份與移轉工作流程
+
+
+Astra Control會持續監控您的運算狀態變更、因此您可以隨時掌握新增的應用程式。
+
+
+
+=== 部署模式
+
+Astra Control提供兩種部署模式：
+
+* * Astra Control Service*：NetApp管理的服務、可在Google Kubernetes Engine（GKE）和Azure Kubernetes Service（KS）中、提供Kubernetes叢集的應用程式感知資料管理功能。
++
+https://docs.netapp.com/us-en/astra/index.html["Astra Control Service文件"^]
+
+* * Astra Control Center*：自我管理的軟體、可針對在內部部署環境中執行的Kubernetes叢集、提供應用程式感知資料管理功能。
++
+https://docs.netapp.com/us-en/astra-control-center/["Astra Control Center文件"^]
+
+
+
+[cols="1h,2d,2a"]
+|===
+|  | Astra控制服務 | Astra控制中心 
+
+
+| 如何提供？ | 是NetApp提供的完整託管雲端服務  a| 
+這是您下載、安裝及管理的軟體
+
+
+
+| 它的代管位置為何？ | 在NetApp首選的公有雲上  a| 
+在您提供的Kubernetes叢集上
+
+
+
+| 如何更新？ | 由NetApp管理  a| 
+您可以管理任何更新
+
+
+
+| 什麼是應用程式資料管理功能？ | 這兩種平台的功能相同、但後端儲存設備或外部服務除外  a| 
+這兩種平台的功能相同、但後端儲存設備或外部服務除外
+
+
+
+| 什麼是儲存後端支援？ | NetApp雲端服務產品  a| 
+* Astra Data Store儲存後端
+* NetApp ONTAP AFF 的功能與FAS 功能
+
+
+|===
+
+
+== Astra資料儲存區
+
+Astra Data Store是分散式平行檔案系統、可為Kubernetes叢集提供可擴充且共享的檔案與區塊資料服務、並具備企業資料管理功能。
+
+Astra Data Store具備下列主要功能：
+
+* 以軟體形式進行封裝與交付
+* 可在第三方市售硬體上執行
+* 為傳統和雲端原生應用程式提供通用的資料層面
+
+
+https://docs.netapp.com/us-en/astra-data-store/["Astra Data Store文件"^]
+
+
+
+== Astra Trident
+
+Astra Trident是NetApp對Kubernetes Container Storage Interface（csi）driveresis的開放原始碼實作。Astra Trident為Kubernetes應用程式提供協調與資料連線功能。
+
+https://docs.netapp.com/us-en/trident/index.html["Astra Trident文件"^]
+
+
+
+== 以取得更多資訊
+
+* https://docs.netapp.com/us-en/astra/index.html["Astra Control Service文件"^]
+* https://docs.netapp.com/us-en/astra-control-center/["Astra Control Center文件"^]
+* https://docs.netapp.com/us-en/astra-data-store/["Astra Data Store文件"^]
+* https://docs.netapp.com/us-en/trident/index.html["Astra Trident文件"^]
+* https://docs.netapp.com/us-en/astra-automation/index.html["Astra Control API"^]
+* https://docs.netapp.com/us-en/cloudinsights/["本文檔 Cloud Insights"^]
+* https://docs.netapp.com/us-en/ontap/index.html["本文檔 ONTAP"^]
+

@@ -1,0 +1,57 @@
+---
+settings:
+  name: Astra Family
+  internal:
+    pdf_enabled: true
+  prod:
+    pdf_enabled: true
+    harmony_enabled: false
+  langs: zh-tw,us-en,ja-jp,zh-cn,ko-kr
+sidebar:
+  entries:
+  - title: Astra產品系列文件
+    url: "/index.html"
+product-family:
+  sidebarlinks:
+  - title: 所有產品
+    tags: tag_application_data_management,tag_storage_management,tag_data_storage,tag_api,tag_get_started
+    class: active
+  - title: 應用程式資料管理
+    tags: tag_application_data_management
+  - title: 儲存管理
+    tags: tag_storage_management
+  - title: 資料儲存
+    tags: tag_data_storage
+  - title: 自動化與API
+    tags: tag_api
+  tiles:
+  - title: 瞭解Astra系列產品
+    icon: "./media/Astra_Family_logo_line.png"
+    url: intro-family.html
+    summary: 瞭解Astra系列產品。
+    tags: all, tag_get_started
+  - title: Astra控制服務
+    icon: "./media/Astra_Control_logo_line.png"
+    url: https://docs.netapp.com/us-en/astra/index.html
+    summary: 使用由NetApp管理的服務來管理公有雲中Kubernetes工作負載的應用程式感知資料管理。
+    tags: all, tag_application_data_management
+  - title: Astra控制中心
+    icon: "./media/Astra_Control_logo_line.png"
+    url: https://docs.netapp.com/us-en/astra-control-center/index.html
+    summary: 使用自我管理的軟體來管理內部部署Kubernetes工作負載的應用程式感知資料管理。
+    tags: all, tag_application_data_management
+  - title: Astra資料儲存區
+    icon: "./media/Astra_Data_Store_logo_line.png"
+    url: https://docs.netapp.com/us-en/astra-data-store/index.html
+    summary: 將Kubernetes原生共享檔案服務用於提供企業資料管理的容器和VM工作負載。
+    tags: all, tag_data_storage
+  - title: Astra Trident
+    icon: "./media/Astra_Trident_logo_line2.png"
+    url: https://docs.netapp.com/us-en/trident/index.html
+    summary: 與NetApp儲存供應商合作、針對Kubernetes工作負載使用符合「安全性」標準的儲存資源配置與管理功能。
+    tags: all, tag_storage_management
+  - title: Astra Automation與API
+    icon: "./media/Astra_Family_logo_line.png"
+    url: https://docs.netapp.com/us-en/astra-automation/index.html
+    summary: 使用API和SDK、將Astra工作流程自動化、讓您的作業順利完成。
+    tags: all, tag_api
