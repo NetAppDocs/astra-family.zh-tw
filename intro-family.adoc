@@ -3,7 +3,7 @@ permalink: intro-family.html
 keywords: introduction, how astra works, how Astra works, what Astra is, astra control, kubernetes, astra control service, astra control center 
 summary: Astra是Kubernetes應用程式資料生命週期管理服務、可簡化狀態應用程式的作業。輕鬆保護、備份及移轉Kubernetes工作負載、並立即建立可運作的應用程式複本。 
 ---
-= Astra系列簡介
+= 瞭解Astra產品系列
 :hardbreaks:
 :allow-uri-read: 
 :icons: font
@@ -34,6 +34,12 @@ Astra產品包括：
 
 | 儲存設備 | Astra資料儲存區 
 |===
+下圖顯示Astra產品組合。image:astra-product-family.png["Astra產品系列"]
+
+
+
+== Astra系列生態系統
+
 下圖顯示Astra系列生態系統。image:astra-ads-architecture-diagram-v3.png["Astra架構圖表與元件"]
 
 

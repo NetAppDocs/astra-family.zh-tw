@@ -3,7 +3,6 @@
   <block id="061e6aa283b127d491599efd28e5adb3" category="summary">NetApp Astra產品系列提供儲存與應用程式感知資料管理服務、適用於Kubernetes應用程式的內部部署與公有雲、採用NetApp儲存與資料管理技術。</block>
   <block id="4b675e54aa1095b2b20f8c4019de37b0" category="doc">Astra文件</block>
   <block id="42b90d40b51b0ccfc8a50cfa2f6c88bc" category="summary">Astra是Kubernetes應用程式資料生命週期管理服務、可簡化狀態應用程式的作業。輕鬆保護、備份及移轉Kubernetes工作負載、並立即建立可運作的應用程式複本。</block>
-  <block id="1132699b3be3edf1b70f14c2203f23a1" category="doc">Astra系列簡介</block>
   <block id="4a37c56b2766c00f553f023f2e4987e3" category="paragraph">NetApp Astra產品系列為雲端原生應用程式提供應用程式資料管理與儲存功能。 </block>
   <block id="b71fa69e65a9178741af35068df8a392" category="paragraph">Astra產品包括：</block>
   <block id="9cdf0ccc35fe6d9fdc72efbcca1bacad" category="list-text">* Astra Control *：使用應用程式感知的資料管理工具、在公有雲和內部部署環境中管理、保護及移動Kubernetes工作負載</block>
@@ -107,4 +106,8 @@
   <block id="e0f4a858a15b865d90b24b46633e2899" category="sidebar">與NetApp儲存供應商合作、針對Kubernetes工作負載使用符合「安全性」標準的儲存資源配置與管理功能。</block>
   <block id="7d71aa0082960701504d9a25825cec9a" category="sidebar">Astra Automation與API</block>
   <block id="9ba87b2fd4ad6a397bd73df498a72886" category="sidebar">使用API和SDK、將Astra工作流程自動化、讓您的作業順利完成。</block>
+  <block id="f4e3fd93268ea6ed82aa5edf5e2e0cb1" category="doc">瞭解Astra產品系列</block>
+  <block id="bb453665f57f6823950856f7a9bad0c3" category="inline-image-macro">Astra產品系列</block>
+  <block id="0ee3fa33cec12a8c87c052e3967c638a" category="paragraph">下圖顯示Astra產品組合。<block ref="17d3506812ac5cd550afaae120fc3072" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="16e3341389486c882cdc91177ff32570" category="section-title">Astra系列生態系統</block>
 </blocks>
