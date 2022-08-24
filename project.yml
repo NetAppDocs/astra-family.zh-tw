@@ -21,8 +21,6 @@ product-family:
     tags: tag_application_data_management
   - title: 儲存管理
     tags: tag_storage_management
-  - title: 資料儲存
-    tags: tag_data_storage
   - title: 自動化與API
     tags: tag_api
   tiles:
@@ -41,11 +39,6 @@ product-family:
     url: https://docs.netapp.com/us-en/astra-control-center/index.html
     summary: 使用自我管理的軟體來管理內部部署Kubernetes工作負載的應用程式感知資料管理。
     tags: all, tag_application_data_management
-  - title: Astra資料儲存區
-    icon: "./media/Astra_Data_Store_logo_line.png"
-    url: https://docs.netapp.com/us-en/astra-data-store/index.html
-    summary: 將Kubernetes原生共享檔案服務用於提供企業資料管理的容器和VM工作負載。
-    tags: all, tag_data_storage
   - title: Astra Trident
     icon: "./media/Astra_Trident_logo_line2.png"
     url: https://docs.netapp.com/us-en/trident/index.html
