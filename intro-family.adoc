@@ -10,7 +10,8 @@ summary: Astra是Kubernetes應用程式資料生命週期管理服務、可簡�
 :imagesdir: ./media/
 
 
-NetApp Astra產品系列為雲端原生應用程式提供應用程式資料管理與儲存功能。 
+[role="lead"]
+NetApp Astra產品系列為雲端原生應用程式提供應用程式資料管理與儲存功能。
 
 Astra產品包括：
 
@@ -23,13 +24,6 @@ Astra產品包括：
 * * Astra Trident *：使用容器儲存介面（Container Storage Interface、簡稱csi）相容的儲存設備資源配置與管理功能、來處理Kubernetes工作負載、並與NetApp儲存供應商合作。
 
 
-[cols="1h,2d"]
-|===
-| 功能 | 產品 
-
-
-| 管理 | Astra Control Service Astra Control Center Astra Trident 
-|===
 
 
 == Astra Control
@@ -95,7 +89,9 @@ https://docs.netapp.com/us-en/astra-control-center/["Astra Control Center文件"
 
 
 | 什麼是儲存後端支援？ | NetApp雲端服務產品  a| 
-NetApp ONTAP AFF 的功能與FAS 功能
+* NetApp ONTAP AFF 的功能與FAS 功能
+* 儲存後端Cloud Volumes ONTAP
+
 
 |===
 

@@ -3,21 +3,11 @@
   <block id="061e6aa283b127d491599efd28e5adb3" category="summary">NetApp Astra產品系列提供儲存與應用程式感知資料管理服務、適用於Kubernetes應用程式的內部部署與公有雲、採用NetApp儲存與資料管理技術。</block>
   <block id="4b675e54aa1095b2b20f8c4019de37b0" category="doc">Astra文件</block>
   <block id="42b90d40b51b0ccfc8a50cfa2f6c88bc" category="summary">Astra是Kubernetes應用程式資料生命週期管理服務、可簡化狀態應用程式的作業。輕鬆保護、備份及移轉Kubernetes工作負載、並立即建立可運作的應用程式複本。</block>
-  <block id="4a37c56b2766c00f553f023f2e4987e3" category="paragraph">NetApp Astra產品系列為雲端原生應用程式提供應用程式資料管理與儲存功能。 </block>
   <block id="b71fa69e65a9178741af35068df8a392" category="paragraph">Astra產品包括：</block>
   <block id="9cdf0ccc35fe6d9fdc72efbcca1bacad" category="list-text">* Astra Control *：使用應用程式感知的資料管理工具、在公有雲和內部部署環境中管理、保護及移動Kubernetes工作負載</block>
   <block id="227ef150dba3452cf99d8eb20c88f292" category="list-text">* Astra Control Service*：使用NetApp管理的服務來管理公有雲中的Kubernetes工作負載。</block>
   <block id="5fcaa4cc6e27b1f2dcee1db0dcee999a" category="list-text">* Astra Control Center*：使用自我管理的軟體來管理內部部署Kubernetes工作負載的資料。</block>
-  <block id="21ae0c223c1db87f465a4b9a3e634341" category="list-text">* Astra Data Store*：使用Kubernetes原生的共享檔案服務來處理容器和VM工作負載、以進行企業資料管理。</block>
   <block id="383cdefecd7eda4a982198ecdbbce7da" category="list-text">* Astra Trident *：使用容器儲存介面（Container Storage Interface、簡稱csi）相容的儲存設備資源配置與管理功能、來處理Kubernetes工作負載、並與NetApp儲存供應商合作。</block>
-  <block id="86408593c34af77fdd90df932f8b5261" category="cell">功能</block>
-  <block id="deb10517653c255364175796ace3553f" category="cell">產品</block>
-  <block id="fe4dbcab9b910577e5035e97ac068dae" category="cell">管理</block>
-  <block id="0b149727ac28aadbb199dcbec2735b7a" category="cell">Astra Control Service Astra Control Center Astra Trident</block>
-  <block id="8c4aa541ee911e8d80451ef8cc304806" category="cell">儲存設備</block>
-  <block id="8035d5d39b2b48f6ec1a3133b688513c" category="cell">Astra資料儲存區</block>
-  <block id="f33c63aeb78f40ccec409a32b5192f65" category="inline-image-macro">Astra架構圖表與元件</block>
-  <block id="c80e756b30bf5373b42d655b829ba954" category="paragraph">下圖顯示Astra系列生態系統。<block ref="20924436e23888c8791db5fad9a1d401" category="inline-image-macro-rx" type="image"></block></block>
   <block id="aabd9360d69086aa78c24d087317998e" category="section-title">Astra Control</block>
   <block id="0e1998253be388fcd1c18fc76ead9054" category="paragraph">Astra Control是Kubernetes應用程式資料生命週期管理解決方案、可簡化狀態應用程式的作業。輕鬆保護、備份及移轉Kubernetes工作負載、並立即建立可運作的應用程式複本。</block>
   <block id="98f770b0af18ca763421bac22b4b6805" category="section-title">功能</block>
@@ -54,15 +44,7 @@
   <block id="6d23e94a1a5dc06559303503aa66bb54" category="cell">這兩種平台的功能相同、但後端儲存設備或外部服務除外</block>
   <block id="c1d5f7fc5daa2ea9189ee2df5ca15da2" category="cell">什麼是儲存後端支援？</block>
   <block id="d1c86529e5adfef0855455a2e0bd54bd" category="cell">NetApp雲端服務產品</block>
-  <block id="69a0ead95fc9c4c42592c123ebbf437a" category="list-text">Astra Data Store儲存後端</block>
   <block id="d6fc0eb1930e7e56affc953c237c5514" category="list-text">NetApp ONTAP AFF 的功能與FAS 功能</block>
-  <block id="9818ed84d7ceffcccacf6de69514a9ce" category="paragraph">Astra Data Store是分散式平行檔案系統、可為Kubernetes叢集提供可擴充且共享的檔案與區塊資料服務、並具備企業資料管理功能。</block>
-  <block id="bfd33db6be82e6f7b9498eb69f318438" category="paragraph">Astra Data Store具備下列主要功能：</block>
-  <block id="8d63660bb9f0e1cfba1e8f18cbe73ccb" category="list-text">以軟體形式進行封裝與交付</block>
-  <block id="204735616e254c4706574fe4dd4f55d8" category="list-text">可在第三方市售硬體上執行</block>
-  <block id="740be893d58a2c38aa12d7f036ab9473" category="list-text">為傳統和雲端原生應用程式提供通用的資料層面</block>
-  <block id="be1c3d3113c4023e29e8dd947523c711" category="inline-link">Astra Data Store文件</block>
-  <block id="c1f6a45da7b5911a5f35093ae72bfc7a" category="paragraph"><block ref="c1f6a45da7b5911a5f35093ae72bfc7a" category="inline-link-rx"></block></block>
   <block id="086e6c16e3fe8e13c336612ef636aa02" category="section-title">Astra Trident</block>
   <block id="8c194651a71f99966bb16a65c5ed39ba" category="paragraph">Astra Trident是NetApp對Kubernetes Container Storage Interface（csi）driveresis的開放原始碼實作。Astra Trident為Kubernetes應用程式提供協調與資料連線功能。</block>
   <block id="14d9b10c6196045941347a9e85704b50" category="inline-link">Astra Trident文件</block>
@@ -96,18 +78,15 @@
   <block id="40dec546414c1ebdfde8d9858f0938c3" category="sidebar">所有產品</block>
   <block id="7c5d8433a062d6a740a01339f0496a43" category="sidebar">應用程式資料管理</block>
   <block id="bfd15aa26ba0ced782240c4a8b7e517e" category="sidebar">儲存管理</block>
-  <block id="dc21b082b0947a93d387b8c7e8f89ee5" category="sidebar">資料儲存</block>
   <block id="4fd0a97eaa9f8d1a9bf7332e22654095" category="sidebar">自動化與API</block>
   <block id="ac6317668edf792a9cd648b62e3a3a1e" category="sidebar">瞭解Astra系列產品</block>
   <block id="506cb50348b89bb82ceaa4bb08e4b2d8" category="sidebar">瞭解Astra系列產品。</block>
   <block id="a315052239d40dd49d5a66ab5d7c8a1b" category="sidebar">使用由NetApp管理的服務來管理公有雲中Kubernetes工作負載的應用程式感知資料管理。</block>
   <block id="f64830a81babe5853a9db001f89c0d1f" category="sidebar">使用自我管理的軟體來管理內部部署Kubernetes工作負載的應用程式感知資料管理。</block>
-  <block id="4786142add4f0dc4045c70fbcddc265c" category="sidebar">將Kubernetes原生共享檔案服務用於提供企業資料管理的容器和VM工作負載。</block>
   <block id="e0f4a858a15b865d90b24b46633e2899" category="sidebar">與NetApp儲存供應商合作、針對Kubernetes工作負載使用符合「安全性」標準的儲存資源配置與管理功能。</block>
   <block id="7d71aa0082960701504d9a25825cec9a" category="sidebar">Astra Automation與API</block>
   <block id="9ba87b2fd4ad6a397bd73df498a72886" category="sidebar">使用API和SDK、將Astra工作流程自動化、讓您的作業順利完成。</block>
   <block id="f4e3fd93268ea6ed82aa5edf5e2e0cb1" category="doc">瞭解Astra產品系列</block>
-  <block id="bb453665f57f6823950856f7a9bad0c3" category="inline-image-macro">Astra產品系列</block>
-  <block id="0ee3fa33cec12a8c87c052e3967c638a" category="paragraph">下圖顯示Astra產品組合。<block ref="17d3506812ac5cd550afaae120fc3072" category="inline-image-macro-rx" type="image"></block></block>
-  <block id="16e3341389486c882cdc91177ff32570" category="section-title">Astra系列生態系統</block>
+  <block id="9b30491a8e180824ae0cdea0a4ada724" category="paragraph">NetApp Astra產品系列為雲端原生應用程式提供應用程式資料管理與儲存功能。</block>
+  <block id="570fa99ce4fbf8deb198b97a6931d63a" category="list-text">儲存後端Cloud Volumes ONTAP</block>
 </blocks>
