@@ -45,15 +45,13 @@ Astra Control為Kubernetes應用程式資料生命週期管理提供關鍵功能
 * 使用使用者介面或API來實作備份與移轉工作流程
 
 
-Astra Control會持續監控您的運算狀態變更、因此您可以隨時掌握新增的應用程式。
-
 
 
 === 部署模式
 
 Astra Control提供兩種部署模式：
 
-* * Astra Control Service*：NetApp管理的服務、可在Google Kubernetes Engine（GKE）和Azure Kubernetes Service（KS）中、提供Kubernetes叢集的應用程式感知資料管理功能。
+* * Astra Control Service*：NetApp託管服務、可在Amazon Web Services（AWS）、Azure Kubernetes Service（KS）和Google Kubernetes Engine（GKE）中、提供Kubernetes叢集的應用程式感知資料管理功能。
 +
 https://docs.netapp.com/us-en/astra/index.html["Astra Control Service文件"^]
 
@@ -63,32 +61,53 @@ https://docs.netapp.com/us-en/astra-control-center/["Astra Control Center文件"
 
 
 
-[cols="1h,2d,2a"]
+[cols="1h,2a,2a"]
 |===
 |  | Astra控制服務 | Astra控制中心 
 
 
-| 如何提供？ | 是NetApp提供的完整託管雲端服務  a| 
+| 如何提供？  a| 
+是NetApp提供的完整託管雲端服務
+ a| 
 這是您下載、安裝及管理的軟體
 
 
 
-| 它的代管位置為何？ | 在NetApp首選的公有雲上  a| 
+| 它的代管位置為何？  a| 
+在NetApp首選的公有雲上
+ a| 
 在您提供的Kubernetes叢集上
 
 
 
-| 如何更新？ | 由NetApp管理  a| 
+| 如何更新？  a| 
+由NetApp管理
+ a| 
 您可以管理任何更新
 
 
 
-| 什麼是應用程式資料管理功能？ | 這兩種平台的功能相同、但後端儲存設備或外部服務除外  a| 
-這兩種平台的功能相同、但後端儲存設備或外部服務除外
+| 什麼是儲存後端支援？  a| 
+* Amazon網路服務：
++
+** Amazon EBS
+** Amazon FSX for NetApp ONTAP 產品
+
+
+* Google Cloud：
++
+** Google持續磁碟
+** NetApp Cloud Volumes Service
+
+
+* Microsoft Azure：
++
+** Azure託管磁碟
+** Azure NetApp Files
 
 
 
-| 什麼是儲存後端支援？ | NetApp雲端服務產品  a| 
+ a| 
 * NetApp ONTAP AFF 的功能與FAS 功能
 * 儲存後端Cloud Volumes ONTAP
 

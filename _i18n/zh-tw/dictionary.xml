@@ -19,10 +19,8 @@
   <block id="f22cb7c9b8713326a930c00edca70cee" category="list-text">從接移到正式作業、複製應用程式</block>
   <block id="1c26e7db082840fcbfcd87527c92e1aa" category="list-text">視覺化應用程式健全狀況與保護狀態</block>
   <block id="d76164e1b3355567bfd6f6fa67a1b598" category="list-text">使用使用者介面或API來實作備份與移轉工作流程</block>
-  <block id="894b9b2b2a66efc8393eed6013d32a66" category="paragraph">Astra Control會持續監控您的運算狀態變更、因此您可以隨時掌握新增的應用程式。</block>
   <block id="6762973af9b127d271f0d2b2aea0bc96" category="section-title">部署模式</block>
   <block id="db1905d057dd6fde6f8b7bd6afe60e41" category="paragraph">Astra Control提供兩種部署模式：</block>
-  <block id="5ac9f21bb5ada8cf5c614ea23fce4131" category="list-text">* Astra Control Service*：NetApp管理的服務、可在Google Kubernetes Engine（GKE）和Azure Kubernetes Service（KS）中、提供Kubernetes叢集的應用程式感知資料管理功能。</block>
   <block id="ef22ff17624b3faeed227ce5c717eb5f" category="inline-link">Astra Control Service文件</block>
   <block id="6762180adf48075df77efbf264e982ec" category="paragraph"><block ref="6762180adf48075df77efbf264e982ec" category="inline-link-rx"></block></block>
   <block id="ddbf9f0ee6e908772df862b9cb9312d3" category="list-text">* Astra Control Center*：自我管理的軟體、可針對在內部部署環境中執行的Kubernetes叢集、提供應用程式感知資料管理功能。</block>
@@ -40,10 +38,7 @@
   <block id="a564f860d9dd9df279c4ea80b08d026a" category="cell">如何更新？</block>
   <block id="b2929741e98ca2c366d8d7dfda36e2b9" category="cell">由NetApp管理</block>
   <block id="091f846d60c1037c90ba7580f37ef9fa" category="paragraph">您可以管理任何更新</block>
-  <block id="cef5c6ab0b7d20ab7cd426689afb9fa5" category="cell">什麼是應用程式資料管理功能？</block>
-  <block id="6d23e94a1a5dc06559303503aa66bb54" category="cell">這兩種平台的功能相同、但後端儲存設備或外部服務除外</block>
   <block id="c1d5f7fc5daa2ea9189ee2df5ca15da2" category="cell">什麼是儲存後端支援？</block>
-  <block id="d1c86529e5adfef0855455a2e0bd54bd" category="cell">NetApp雲端服務產品</block>
   <block id="d6fc0eb1930e7e56affc953c237c5514" category="list-text">NetApp ONTAP AFF 的功能與FAS 功能</block>
   <block id="086e6c16e3fe8e13c336612ef636aa02" category="section-title">Astra Trident</block>
   <block id="8c194651a71f99966bb16a65c5ed39ba" category="paragraph">Astra Trident是NetApp對Kubernetes Container Storage Interface（csi）driveresis的開放原始碼實作。Astra Trident為Kubernetes應用程式提供協調與資料連線功能。</block>
@@ -89,4 +84,14 @@
   <block id="f4e3fd93268ea6ed82aa5edf5e2e0cb1" category="doc">瞭解Astra產品系列</block>
   <block id="9b30491a8e180824ae0cdea0a4ada724" category="paragraph">NetApp Astra產品系列為雲端原生應用程式提供應用程式資料管理與儲存功能。</block>
   <block id="570fa99ce4fbf8deb198b97a6931d63a" category="list-text">儲存後端Cloud Volumes ONTAP</block>
+  <block id="2421b9af67a887e6737023c5b8ec66f2" category="list-text">* Astra Control Service*：NetApp託管服務、可在Amazon Web Services（AWS）、Azure Kubernetes Service（KS）和Google Kubernetes Engine（GKE）中、提供Kubernetes叢集的應用程式感知資料管理功能。</block>
+  <block id="7c8ee67c5d264bc13cdb41c37af356c8" category="list-text">Amazon網路服務：</block>
+  <block id="516729a7c0562425406a22cfe6a2c163" category="list-text">Amazon EBS</block>
+  <block id="4d82a1ec1af02725042c8c785564ee7a" category="list-text">Amazon FSX for NetApp ONTAP 產品</block>
+  <block id="26ee644c2b0c0d7a061dc960838350a3" category="list-text">Google Cloud：</block>
+  <block id="4ea21227490cfda88113ac9e09c3d896" category="list-text">Google持續磁碟</block>
+  <block id="1a4c7c9b6e3157ccd0101fd0836c0bfc" category="list-text">NetApp Cloud Volumes Service</block>
+  <block id="4bce0cadbd95655804d72e0df4ac6d7b" category="list-text">Microsoft Azure：</block>
+  <block id="79c9c43a409053927cc323915dbf1c06" category="list-text">Azure託管磁碟</block>
+  <block id="7450cfde7058dc5e1f7909d0280fd7ae" category="list-text">Azure NetApp Files</block>
 </blocks>
