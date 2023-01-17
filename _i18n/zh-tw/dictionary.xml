@@ -23,7 +23,6 @@
   <block id="db1905d057dd6fde6f8b7bd6afe60e41" category="paragraph">Astra Control提供兩種部署模式：</block>
   <block id="ef22ff17624b3faeed227ce5c717eb5f" category="inline-link">Astra Control Service文件</block>
   <block id="6762180adf48075df77efbf264e982ec" category="paragraph"><block ref="6762180adf48075df77efbf264e982ec" category="inline-link-rx"></block></block>
-  <block id="ddbf9f0ee6e908772df862b9cb9312d3" category="list-text">* Astra Control Center*：自我管理的軟體、可針對在內部部署環境中執行的Kubernetes叢集、提供應用程式感知資料管理功能。</block>
   <block id="3a4b2c66d4bdac6ce0e3340c71a39eda" category="inline-link">Astra Control Center文件</block>
   <block id="281db70ca8dfcac9ebe6166029058548" category="paragraph"><block ref="281db70ca8dfcac9ebe6166029058548" category="inline-link-rx"></block></block>
   <block id="d41d8cd98f00b204e9800998ecf8427e" category="cell"></block>
@@ -31,10 +30,8 @@
   <block id="9c634046a90a62883b122e76b9afcef2" category="cell">Astra控制中心</block>
   <block id="72fa0b165b80dd423c3cca71e56e6e85" category="cell">如何提供？</block>
   <block id="f7b1d494056b7a9289f329a721d9f318" category="cell">是NetApp提供的完整託管雲端服務</block>
-  <block id="aff53210beade5ba79414ae13eb6b73d" category="paragraph">這是您下載、安裝及管理的軟體</block>
   <block id="7cae1429bdc4131db46365e8fc893a77" category="cell">它的代管位置為何？</block>
   <block id="7ab48d8d90e46b91aa73c1832b7681f9" category="cell">在NetApp首選的公有雲上</block>
-  <block id="6cc0042ffe94d2cdea2bf7b80705f4ef" category="paragraph">在您提供的Kubernetes叢集上</block>
   <block id="a564f860d9dd9df279c4ea80b08d026a" category="cell">如何更新？</block>
   <block id="b2929741e98ca2c366d8d7dfda36e2b9" category="cell">由NetApp管理</block>
   <block id="091f846d60c1037c90ba7580f37ef9fa" category="paragraph">您可以管理任何更新</block>
@@ -94,4 +91,8 @@
   <block id="4bce0cadbd95655804d72e0df4ac6d7b" category="list-text">Microsoft Azure：</block>
   <block id="79c9c43a409053927cc323915dbf1c06" category="list-text">Azure託管磁碟</block>
   <block id="7450cfde7058dc5e1f7909d0280fd7ae" category="list-text">Azure NetApp Files</block>
+  <block id="5ec023826f488423d711ac0df1d9f4c5" category="list-text">使用NetApp SnapMirror技術將應用程式複寫到遠端系統</block>
+  <block id="a3b55d525a2386049955089c958fb85f" category="list-text">* Astra Control Center*：自我管理的軟體、可針對在內部部署環境中執行的Kubernetes叢集、提供應用程式感知資料管理功能。Astra Control Center也可安裝在Cloud Volumes ONTAP Amazon Web Services、Microsoft Azure和Google Cloud Platform（GCP）上的NetApp支援後端儲存設備。</block>
+  <block id="3f30cc087061fe529429ba0e8d0ff810" category="paragraph">您下載、安裝及管理的軟體</block>
+  <block id="dccc75a2a0dee41efca95ab5f6a92a91" category="paragraph">請自帶Kubernetes叢集</block>
 </blocks>
