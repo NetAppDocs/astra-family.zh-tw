@@ -43,7 +43,7 @@ Astra Control為Kubernetes應用程式資料生命週期管理提供關鍵功能
 * 從接移到正式作業、複製應用程式
 * 使用NetApp SnapMirror技術將應用程式複寫到遠端系統
 * 視覺化應用程式健全狀況與保護狀態
-* 使用使用者介面或API來實作備份與移轉工作流程
+* 使用Web UI或API來實作備份與移轉工作流程
 
 
 
@@ -52,7 +52,7 @@ Astra Control為Kubernetes應用程式資料生命週期管理提供關鍵功能
 
 Astra Control提供兩種部署模式：
 
-* * Astra Control Service*：NetApp託管服務、可在Amazon Web Services（AWS）、Azure Kubernetes Service（KS）和Google Kubernetes Engine（GKE）中、提供Kubernetes叢集的應用程式感知資料管理功能。
+* * Astra Control Service*：NetApp託管服務、可在多個雲端供應商環境及自行管理的Kubernetes叢集中、提供Kubernetes叢集的應用程式感知資料管理功能。
 +
 https://docs.netapp.com/us-en/astra/index.html["Astra Control Service文件"^]
 
@@ -93,24 +93,35 @@ https://docs.netapp.com/us-en/astra-control-center/["Astra Control Center文件"
 +
 ** Amazon EBS
 ** Amazon FSX for NetApp ONTAP 產品
+** link:https://docs.netapp.com/us-en/cloud-manager-cloud-volumes-ontap/task-getting-started-gcp.html["Cloud Volumes ONTAP"^]
 
 
 * Google Cloud：
 +
 ** Google持續磁碟
 ** NetApp Cloud Volumes Service
+** link:https://docs.netapp.com/us-en/cloud-manager-cloud-volumes-ontap/task-getting-started-gcp.html["Cloud Volumes ONTAP"^]
 
 
 * Microsoft Azure：
 +
 ** Azure託管磁碟
 ** Azure NetApp Files
+** link:https://docs.netapp.com/us-en/cloud-manager-cloud-volumes-ontap/task-getting-started-gcp.html["Cloud Volumes ONTAP"^]
+
+
+* 自我管理的叢集
++
+** Amazon EBS
+** Google持續磁碟
+** Azure託管磁碟
+** link:https://docs.netapp.com/us-en/cloud-manager-cloud-volumes-ontap/task-getting-started-gcp.html["Cloud Volumes ONTAP"^]
 
 
 
  a| 
 * NetApp ONTAP AFF 的功能與FAS 功能
-* 儲存後端Cloud Volumes ONTAP
+* link:https://docs.netapp.com/us-en/cloud-manager-cloud-volumes-ontap/task-getting-started-gcp.html["Cloud Volumes ONTAP"^]
 
 
 |===

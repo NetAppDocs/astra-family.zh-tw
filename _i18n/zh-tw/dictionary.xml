@@ -18,7 +18,6 @@
   <block id="ae3099cc177fc161f80c6965fe89a71a" category="list-text">將應用程式和資料從一個Kubernetes叢集移轉到另一個叢集</block>
   <block id="f22cb7c9b8713326a930c00edca70cee" category="list-text">從接移到正式作業、複製應用程式</block>
   <block id="1c26e7db082840fcbfcd87527c92e1aa" category="list-text">視覺化應用程式健全狀況與保護狀態</block>
-  <block id="d76164e1b3355567bfd6f6fa67a1b598" category="list-text">使用使用者介面或API來實作備份與移轉工作流程</block>
   <block id="6762973af9b127d271f0d2b2aea0bc96" category="section-title">部署模式</block>
   <block id="db1905d057dd6fde6f8b7bd6afe60e41" category="paragraph">Astra Control提供兩種部署模式：</block>
   <block id="ef22ff17624b3faeed227ce5c717eb5f" category="inline-link">Astra Control Service文件</block>
@@ -80,8 +79,6 @@
   <block id="9ba87b2fd4ad6a397bd73df498a72886" category="sidebar">使用API和SDK、將Astra工作流程自動化、讓您的作業順利完成。</block>
   <block id="f4e3fd93268ea6ed82aa5edf5e2e0cb1" category="doc">瞭解Astra產品系列</block>
   <block id="9b30491a8e180824ae0cdea0a4ada724" category="paragraph">NetApp Astra產品系列為雲端原生應用程式提供應用程式資料管理與儲存功能。</block>
-  <block id="570fa99ce4fbf8deb198b97a6931d63a" category="list-text">儲存後端Cloud Volumes ONTAP</block>
-  <block id="2421b9af67a887e6737023c5b8ec66f2" category="list-text">* Astra Control Service*：NetApp託管服務、可在Amazon Web Services（AWS）、Azure Kubernetes Service（KS）和Google Kubernetes Engine（GKE）中、提供Kubernetes叢集的應用程式感知資料管理功能。</block>
   <block id="7c8ee67c5d264bc13cdb41c37af356c8" category="list-text">Amazon網路服務：</block>
   <block id="516729a7c0562425406a22cfe6a2c163" category="list-text">Amazon EBS</block>
   <block id="4d82a1ec1af02725042c8c785564ee7a" category="list-text">Amazon FSX for NetApp ONTAP 產品</block>
@@ -95,4 +92,9 @@
   <block id="a3b55d525a2386049955089c958fb85f" category="list-text">* Astra Control Center*：自我管理的軟體、可針對在內部部署環境中執行的Kubernetes叢集、提供應用程式感知資料管理功能。Astra Control Center也可安裝在Cloud Volumes ONTAP Amazon Web Services、Microsoft Azure和Google Cloud Platform（GCP）上的NetApp支援後端儲存設備。</block>
   <block id="3f30cc087061fe529429ba0e8d0ff810" category="paragraph">您下載、安裝及管理的軟體</block>
   <block id="dccc75a2a0dee41efca95ab5f6a92a91" category="paragraph">請自帶Kubernetes叢集</block>
+  <block id="6c4ff7542dcef16bc12bbbab0c160e9a" category="list-text">使用Web UI或API來實作備份與移轉工作流程</block>
+  <block id="b7372905cd310308af0541e07ef5175f" category="list-text">* Astra Control Service*：NetApp託管服務、可在多個雲端供應商環境及自行管理的Kubernetes叢集中、提供Kubernetes叢集的應用程式感知資料管理功能。</block>
+  <block id="117bdbda976fe8b3212bc3b6327a0a1b" category="inline-link-macro">Cloud Volumes ONTAP</block>
+  <block id="3be7ceee76706d9dfc15d8f9c233dfb8" category="list-text"><block ref="3be7ceee76706d9dfc15d8f9c233dfb8" category="inline-link-macro-rx"></block></block>
+  <block id="d9e6278e0d2ca01f55d0a29da9caa34f" category="list-text">自我管理的叢集</block>
 </blocks>
