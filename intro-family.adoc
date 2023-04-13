@@ -40,8 +40,8 @@ Astra Control為Kubernetes應用程式資料生命週期管理提供關鍵功能
 * 建立應用程式感知的隨需快照與備份
 * 自動化原則導向的快照與備份作業
 * 將應用程式和資料從一個Kubernetes叢集移轉到另一個叢集
-* 從接移到正式作業、複製應用程式
-* 使用NetApp SnapMirror技術將應用程式複寫到遠端系統
+* 使用 NetApp SnapMirror 技術（ Astra Control Center ）將應用程式複寫到遠端系統
+* 將應用程式從接移複製到正式作業
 * 視覺化應用程式健全狀況與保護狀態
 * 使用Web UI或API來實作備份與移轉工作流程
 
@@ -56,7 +56,7 @@ Astra Control提供兩種部署模式：
 +
 https://docs.netapp.com/us-en/astra/index.html["Astra Control Service文件"^]
 
-* * Astra Control Center*：自我管理的軟體、可針對在內部部署環境中執行的Kubernetes叢集、提供應用程式感知資料管理功能。Astra Control Center也可安裝在Cloud Volumes ONTAP Amazon Web Services、Microsoft Azure和Google Cloud Platform（GCP）上的NetApp支援後端儲存設備。
+* * Astra Control Center*：自我管理的軟體、可針對在內部部署環境中執行的Kubernetes叢集、提供應用程式感知資料管理功能。Astra Control Center也可安裝在多個雲端供應商環境中、採用NetApp Cloud Volumes ONTAP 的解決方案儲存後端。
 +
 https://docs.netapp.com/us-en/astra-control-center/["Astra Control Center文件"^]
 
@@ -70,14 +70,14 @@ https://docs.netapp.com/us-en/astra-control-center/["Astra Control Center文件"
 | 如何提供？  a| 
 是NetApp提供的完整託管雲端服務
  a| 
-您下載、安裝及管理的軟體
+這是您下載、安裝及管理的軟體
 
 
 
 | 它的代管位置為何？  a| 
 在NetApp首選的公有雲上
  a| 
-請自帶Kubernetes叢集
+在您自己的Kubernetes叢集上
 
 
 
@@ -110,7 +110,7 @@ https://docs.netapp.com/us-en/astra-control-center/["Astra Control Center文件"
 ** link:https://docs.netapp.com/us-en/cloud-manager-cloud-volumes-ontap/task-getting-started-gcp.html["Cloud Volumes ONTAP"^]
 
 
-* 自我管理的叢集
+* 自我管理叢集：
 +
 ** Amazon EBS
 ** Google持續磁碟
