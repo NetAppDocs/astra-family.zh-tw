@@ -97,4 +97,7 @@
   <block id="aff53210beade5ba79414ae13eb6b73d" category="paragraph">這是您下載、安裝及管理的軟體</block>
   <block id="384c577b472799aa8cd781ce64f2bb34" category="paragraph">在您自己的Kubernetes叢集上</block>
   <block id="55b6146ebe43b01a290a7aad48a66943" category="list-text">自我管理叢集：</block>
+  <block id="3e69caaf9a57cb5719432beede8b95e7" category="list-text"><block ref="3e69caaf9a57cb5719432beede8b95e7" category="inline-link-macro-rx"></block></block>
+  <block id="3cd945141d6a16b2dc2b3157f739c39f" category="list-text"><block ref="3cd945141d6a16b2dc2b3157f739c39f" category="inline-link-macro-rx"></block></block>
+  <block id="5b18b199efd7629226cef91930cd45e0" category="list-text"><block ref="5b18b199efd7629226cef91930cd45e0" category="inline-link-macro-rx"></block></block>
 </blocks>
