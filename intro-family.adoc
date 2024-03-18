@@ -3,7 +3,7 @@ permalink: intro-family.html
 keywords: introduction, how astra works, how Astra works, what Astra is, astra control, kubernetes, astra control service, astra control center 
 summary: Astra是Kubernetes應用程式資料生命週期管理服務、可簡化狀態應用程式的作業。輕鬆保護、備份及移轉Kubernetes工作負載、並立即建立可運作的應用程式複本。 
 ---
-= 瞭解Astra產品系列
+= 瞭解Astra Control
 :hardbreaks:
 :allow-uri-read: 
 :icons: font
@@ -11,46 +11,87 @@ summary: Astra是Kubernetes應用程式資料生命週期管理服務、可簡�
 
 
 [role="lead"]
-NetApp Astra產品系列為雲端原生應用程式提供應用程式資料管理與儲存功能。
-
-Astra產品包括：
-
-* * Astra Control *：使用應用程式感知的資料管理工具、在公有雲和內部部署環境中管理、保護及移動Kubernetes工作負載
-+
-** * Astra Control Service*：使用NetApp管理的服務來管理公有雲中的Kubernetes工作負載。
-** * Astra Control Center*：使用自我管理的軟體來管理內部部署Kubernetes工作負載的資料。
-
-
-* * Astra Trident *：使用容器儲存介面（Container Storage Interface、簡稱csi）相容的儲存設備資源配置與管理功能、來處理Kubernetes工作負載、並與NetApp儲存供應商合作。
+Astra Control 是 Kubernetes 應用程式資料生命週期管理解決方案、可簡化有狀態應用程式的作業、並協助您在混合式和多雲端環境中儲存、保護及移動 Kubernetes 工作負載。
 
 
 
-
-== Astra Control
-
-Astra Control是Kubernetes應用程式資料生命週期管理解決方案、可簡化狀態應用程式的作業。輕鬆保護、備份及移轉Kubernetes工作負載、並立即建立可運作的應用程式複本。
-
-
-
-=== 功能
+== 功能
 
 Astra Control為Kubernetes應用程式資料生命週期管理提供關鍵功能：
 
-* 自動管理持續儲存
-* 建立應用程式感知的隨需快照與備份
-* 自動化原則導向的快照與備份作業
-* 將應用程式和資料從一個Kubernetes叢集移轉到另一個叢集
-* 使用 NetApp SnapMirror 技術（ Astra Control Center ）將應用程式複寫到遠端系統
-* 將應用程式從接移複製到正式作業
-* 視覺化應用程式健全狀況與保護狀態
-* 使用Web UI或API來實作備份與移轉工作流程
+* 商店 * ：
+
+* 為容器化工作負載提供動態儲存資源配置
+* 在執行中加密從容器到持續磁碟區的資料
+* 跨區域跨區域複寫
+
+
+* 保護 * ：
+
+* 自動探索及應用程式感知保護整個應用程式及其資料
+* 根據貴組織的需求、從任何快照版本即時還原應用程式
+* 跨區域、區域和雲端供應商快速容錯移轉
+
+
+* 移動 * ：
+
+* 在 Kubernetes 叢集與雲端之間、完成應用程式與資料的移動性
+* 即時複製整個應用程式和資料
+* 透過一致的 Web UI 和 API 、只需按一下滑鼠即可移轉應用程式
 
 
 
 
-=== 部署模式
+== 架構
 
-Astra Control提供兩種部署模式：
+Astra Control 的架構可讓 IT 提供進階的資料管理功能、強化 Kubernetes 應用程式的功能與可用度、簡化跨公有雲和內部環境的容器化工作負載的管理、保護及移動、 並透過其 REST API 和 SDK 提供自動化功能、以程式設計方式存取、與現有工作流程無縫整合。
+
+Astra Control 是 Kubernetes 原生產品、可啟用資料保護工作流程、利用自訂資源、同時與現有的 API 和 SDK 保持向下相容。Kubernetes 原生資料保護提供顯著優勢；透過與 Kubernetes API 和資源無縫整合、資料保護可透過組織現有的 CI/CD 和 / 或 GitOps 工具、成為應用程式生命週期的固有部分。
+
+image:astra-family-architecture-v1_IEOPS-1558.png["Astra Control 架構"]
+
+Astra Control 以四個輔助元件為基礎：
+
+* *Astra Control* ： Astra Control 是適用於所有託管叢集的集中式管理服務、可在雲端和內部部署中提供協調的應用程式保護和行動性工作負載、以及下列功能：
++
+** 多個叢集和雲端的組合檢視
+** 保護協調的工作流程
+** 精細的資源視覺化與選擇
+
+
+* *Astra Connector* ： Astra Connector 與 Astra Control 團隊可為每個託管叢集提供安全連線、無論連線狀態為何、都能在本機執行排程作業、並具備下列功能：
++
+** 無論連線狀態為何、都能在本機執行排程的作業
+** 在叢集之間散佈和最佳化 Astra 系統資源使用率的本機作業
+** 本機安裝、可讓您以最少的權限存取叢集、以提高安全性
+
+
+* * Astra Control Provisioner* ： Astra Control Provisioner 提供核心 CSI 資源配置功能和進階儲存管理功能、以增加安全性和災難恢復組態、以及下列功能：
++
+** 為容器化工作負載提供動態儲存資源配置
+** 進階儲存管理：
++
+*** 從容器到 PV 的資料在執行中加密
+*** SnapMirror Cloud 功能可跨區域跨區域複寫
+
+
+
+
+* * Astra 自訂資源 * ：每個叢集上使用的自訂資源提供 Kubernetes 原生方法來在本機執行作業、簡化與其他 Kubernetes 友好工具和自動化的整合、並提供下列功能：
++
+** 直接生態系統工具整合與自動化工作流程
+** 可啟用自訂工作流程的低階原元
+
+
+
+
+
+
+== 部署模式
+
+Astra Control 提供兩種部署模式。
+
+image:astra-architecture-diagram-v6.png["Astra 部署模型"]
 
 * * Astra Control Service*：NetApp託管服務、可在多個雲端供應商環境及自行管理的Kubernetes叢集中、提供Kubernetes叢集的應用程式感知資料管理功能。
 +
@@ -62,77 +103,123 @@ https://docs.netapp.com/us-en/astra-control-center/["Astra Control Center文件"
 
 
 
-[cols="1h,2a,2a"]
+[cols="1h,2d,2a"]
 |===
 |  | Astra控制服務 | Astra控制中心 
 
 
-| 如何提供？  a| 
-是NetApp提供的完整託管雲端服務
- a| 
-這是您下載、安裝及管理的軟體
+| 如何提供？ | 是NetApp提供的完整託管雲端服務  a| 
+可下載、安裝及管理的軟體
 
 
 
-| 它的代管位置為何？  a| 
-在NetApp首選的公有雲上
- a| 
+| 它的代管位置為何？ | 在NetApp首選的公有雲上  a| 
 在您自己的Kubernetes叢集上
 
 
 
-| 如何更新？  a| 
-由NetApp管理
- a| 
+| 如何更新？ | 由NetApp管理  a| 
 您可以管理任何更新
 
 
 
-| 什麼是儲存後端支援？  a| 
-* Amazon網路服務：
+| 支援的 Kubernetes 發佈內容為何？  a| 
+* * 雲端供應商 *
++
+** Amazon Web Services
++
+*** Amazon Elastic Kubernetes Service （ EKS ）
+
+
+** Google Cloud
++
+*** Google Kubernetes Engine（GKE）
+
+
+** Microsoft Azure
++
+*** Azure Kubernetes服務（KS）
+
+
+
+
+* * 自我管理叢集 *
++
+** Kubernetes （上游）
+** Rancher Kubernetes引擎（RKE）
+** Red Hat OpenShift Container Platform
+
+
+* * 內部叢集 *
++
+** 內部部署 Red Hat OpenShift Container Platform
+
+
+
+ a| 
+* Azure Stack HCI 上的 Azure Kubernetes 服務
+* Google Anthos
+* Kubernetes （上游）
+* Rancher Kubernetes引擎（RKE）
+* Red Hat OpenShift Container Platform
+
+
+
+
+| 支援的儲存後端有哪些？  a| 
+* * 雲端供應商 *
++
+** Amazon Web Services
++
+*** Amazon EBS
+*** Amazon FSX for NetApp ONTAP 產品
+*** https://docs.netapp.com/us-en/cloud-manager-cloud-volumes-ontap/task-getting-started-gcp.html["Cloud Volumes ONTAP"^]
+
+
+** Google Cloud
++
+*** Google持續磁碟
+*** NetApp Cloud Volumes Service
+*** https://docs.netapp.com/us-en/cloud-manager-cloud-volumes-ontap/task-getting-started-gcp.html["Cloud Volumes ONTAP"^]
+
+
+** Microsoft Azure
++
+*** Azure託管磁碟
+*** Azure NetApp Files
+*** https://docs.netapp.com/us-en/cloud-manager-cloud-volumes-ontap/task-getting-started-azure.html["Cloud Volumes ONTAP"^]
+
+
+
+
+* * 自我管理叢集 *
 +
 ** Amazon EBS
-** Amazon FSX for NetApp ONTAP 產品
-** link:https://docs.netapp.com/us-en/cloud-manager-cloud-volumes-ontap/task-getting-started-aws.html["Cloud Volumes ONTAP"^]
-
-
-* Google Cloud：
-+
-** Google持續磁碟
-** NetApp Cloud Volumes Service
-** link:https://docs.netapp.com/us-en/cloud-manager-cloud-volumes-ontap/task-getting-started-gcp.html["Cloud Volumes ONTAP"^]
-
-
-* Microsoft Azure：
-+
 ** Azure託管磁碟
-** Azure NetApp Files
-** link:https://docs.netapp.com/us-en/cloud-manager-cloud-volumes-ontap/task-getting-started-azure.html["Cloud Volumes ONTAP"^]
-
-
-* 自我管理叢集：
-+
-** Amazon EBS
 ** Google持續磁碟
-** Azure託管磁碟
-** link:https://docs.netapp.com/us-en/cloud-manager-cloud-volumes-ontap/concept-overview-cvo.html["Cloud Volumes ONTAP"^]
+** https://docs.netapp.com/us-en/cloud-manager-cloud-volumes-ontap/["Cloud Volumes ONTAP"^]
+** NetApp MetroCluster
+** https://longhorn.io/["Longhorn"^]
+
+
+* * 內部叢集 *
++
+** NetApp MetroCluster
+** NetApp ONTAP AFF 的功能與FAS 功能
+** NetApp ONTAP Select
+** https://docs.netapp.com/us-en/cloud-manager-cloud-volumes-ontap/["Cloud Volumes ONTAP"^]
+** https://longhorn.io/["Longhorn"^]
 
 
 
  a| 
 * NetApp ONTAP AFF 的功能與FAS 功能
-* link:https://docs.netapp.com/us-en/cloud-manager-cloud-volumes-ontap/concept-overview-cvo.html["Cloud Volumes ONTAP"^]
+* NetApp ONTAP Select
+* https://docs.netapp.com/us-en/cloud-manager-cloud-volumes-ontap/["Cloud Volumes ONTAP"^]
+* https://longhorn.io/["Longhorn"^]
 
 
 |===
-
-
-== Astra Trident
-
-Astra Trident是NetApp對Kubernetes Container Storage Interface（csi）driveresis的開放原始碼實作。Astra Trident為Kubernetes應用程式提供協調與資料連線功能。
-
-https://docs.netapp.com/us-en/trident/index.html["Astra Trident文件"^]
-
 
 
 == 以取得更多資訊

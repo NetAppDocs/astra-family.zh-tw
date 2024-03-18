@@ -3,22 +3,8 @@
   <block id="061e6aa283b127d491599efd28e5adb3" category="summary">NetApp Astra產品系列提供儲存與應用程式感知資料管理服務、適用於Kubernetes應用程式的內部部署與公有雲、採用NetApp儲存與資料管理技術。</block>
   <block id="4b675e54aa1095b2b20f8c4019de37b0" category="doc">Astra文件</block>
   <block id="42b90d40b51b0ccfc8a50cfa2f6c88bc" category="summary">Astra是Kubernetes應用程式資料生命週期管理服務、可簡化狀態應用程式的作業。輕鬆保護、備份及移轉Kubernetes工作負載、並立即建立可運作的應用程式複本。</block>
-  <block id="b71fa69e65a9178741af35068df8a392" category="paragraph">Astra產品包括：</block>
-  <block id="9cdf0ccc35fe6d9fdc72efbcca1bacad" category="list-text">* Astra Control *：使用應用程式感知的資料管理工具、在公有雲和內部部署環境中管理、保護及移動Kubernetes工作負載</block>
-  <block id="227ef150dba3452cf99d8eb20c88f292" category="list-text">* Astra Control Service*：使用NetApp管理的服務來管理公有雲中的Kubernetes工作負載。</block>
-  <block id="5fcaa4cc6e27b1f2dcee1db0dcee999a" category="list-text">* Astra Control Center*：使用自我管理的軟體來管理內部部署Kubernetes工作負載的資料。</block>
-  <block id="383cdefecd7eda4a982198ecdbbce7da" category="list-text">* Astra Trident *：使用容器儲存介面（Container Storage Interface、簡稱csi）相容的儲存設備資源配置與管理功能、來處理Kubernetes工作負載、並與NetApp儲存供應商合作。</block>
-  <block id="aabd9360d69086aa78c24d087317998e" category="section-title">Astra Control</block>
-  <block id="0e1998253be388fcd1c18fc76ead9054" category="paragraph">Astra Control是Kubernetes應用程式資料生命週期管理解決方案、可簡化狀態應用程式的作業。輕鬆保護、備份及移轉Kubernetes工作負載、並立即建立可運作的應用程式複本。</block>
-  <block id="98f770b0af18ca763421bac22b4b6805" category="section-title">功能</block>
   <block id="c66fd3d61ca9e5331b05a6bd70d4a1df" category="paragraph">Astra Control為Kubernetes應用程式資料生命週期管理提供關鍵功能：</block>
-  <block id="842f680f400de3b6ee92728ef695d366" category="list-text">自動管理持續儲存</block>
-  <block id="0a5245490d6d6f511bbdb3db35acfe54" category="list-text">建立應用程式感知的隨需快照與備份</block>
-  <block id="f107a6e34d3d0df36d460bc5b3a5fe8b" category="list-text">自動化原則導向的快照與備份作業</block>
-  <block id="ae3099cc177fc161f80c6965fe89a71a" category="list-text">將應用程式和資料從一個Kubernetes叢集移轉到另一個叢集</block>
-  <block id="1c26e7db082840fcbfcd87527c92e1aa" category="list-text">視覺化應用程式健全狀況與保護狀態</block>
   <block id="6762973af9b127d271f0d2b2aea0bc96" category="section-title">部署模式</block>
-  <block id="db1905d057dd6fde6f8b7bd6afe60e41" category="paragraph">Astra Control提供兩種部署模式：</block>
   <block id="ef22ff17624b3faeed227ce5c717eb5f" category="inline-link">Astra Control Service文件</block>
   <block id="6762180adf48075df77efbf264e982ec" category="paragraph"><block ref="6762180adf48075df77efbf264e982ec" category="inline-link-rx"></block></block>
   <block id="3a4b2c66d4bdac6ce0e3340c71a39eda" category="inline-link">Astra Control Center文件</block>
@@ -33,10 +19,8 @@
   <block id="a564f860d9dd9df279c4ea80b08d026a" category="cell">如何更新？</block>
   <block id="b2929741e98ca2c366d8d7dfda36e2b9" category="cell">由NetApp管理</block>
   <block id="091f846d60c1037c90ba7580f37ef9fa" category="paragraph">您可以管理任何更新</block>
-  <block id="c1d5f7fc5daa2ea9189ee2df5ca15da2" category="cell">什麼是儲存後端支援？</block>
   <block id="d6fc0eb1930e7e56affc953c237c5514" category="list-text">NetApp ONTAP AFF 的功能與FAS 功能</block>
   <block id="086e6c16e3fe8e13c336612ef636aa02" category="section-title">Astra Trident</block>
-  <block id="8c194651a71f99966bb16a65c5ed39ba" category="paragraph">Astra Trident是NetApp對Kubernetes Container Storage Interface（csi）driveresis的開放原始碼實作。Astra Trident為Kubernetes應用程式提供協調與資料連線功能。</block>
   <block id="14d9b10c6196045941347a9e85704b50" category="inline-link">Astra Trident文件</block>
   <block id="4a2ab62188738135163aaaaeab1d6cfe" category="paragraph"><block ref="4a2ab62188738135163aaaaeab1d6cfe" category="inline-link-rx"></block></block>
   <block id="d13de4a83d7b44c2e65495def8ef1c7b" category="section-title">以取得更多資訊</block>
@@ -65,37 +49,22 @@
   <block id="7c5d8433a062d6a740a01339f0496a43" category="sidebar">應用程式資料管理</block>
   <block id="bfd15aa26ba0ced782240c4a8b7e517e" category="sidebar">儲存管理</block>
   <block id="4fd0a97eaa9f8d1a9bf7332e22654095" category="sidebar">自動化與API</block>
-  <block id="ac6317668edf792a9cd648b62e3a3a1e" category="sidebar">瞭解Astra系列產品</block>
   <block id="506cb50348b89bb82ceaa4bb08e4b2d8" category="sidebar">瞭解Astra系列產品。</block>
   <block id="a315052239d40dd49d5a66ab5d7c8a1b" category="sidebar">使用由NetApp管理的服務來管理公有雲中Kubernetes工作負載的應用程式感知資料管理。</block>
   <block id="f64830a81babe5853a9db001f89c0d1f" category="sidebar">使用自我管理的軟體來管理內部部署Kubernetes工作負載的應用程式感知資料管理。</block>
   <block id="e0f4a858a15b865d90b24b46633e2899" category="sidebar">與NetApp儲存供應商合作、針對Kubernetes工作負載使用符合「安全性」標準的儲存資源配置與管理功能。</block>
   <block id="7d71aa0082960701504d9a25825cec9a" category="sidebar">Astra Automation與API</block>
   <block id="9ba87b2fd4ad6a397bd73df498a72886" category="sidebar">使用API和SDK、將Astra工作流程自動化、讓您的作業順利完成。</block>
-  <block id="f4e3fd93268ea6ed82aa5edf5e2e0cb1" category="doc">瞭解Astra產品系列</block>
-  <block id="9b30491a8e180824ae0cdea0a4ada724" category="paragraph">NetApp Astra產品系列為雲端原生應用程式提供應用程式資料管理與儲存功能。</block>
-  <block id="7c8ee67c5d264bc13cdb41c37af356c8" category="list-text">Amazon網路服務：</block>
   <block id="516729a7c0562425406a22cfe6a2c163" category="list-text">Amazon EBS</block>
   <block id="4d82a1ec1af02725042c8c785564ee7a" category="list-text">Amazon FSX for NetApp ONTAP 產品</block>
-  <block id="26ee644c2b0c0d7a061dc960838350a3" category="list-text">Google Cloud：</block>
   <block id="4ea21227490cfda88113ac9e09c3d896" category="list-text">Google持續磁碟</block>
   <block id="1a4c7c9b6e3157ccd0101fd0836c0bfc" category="list-text">NetApp Cloud Volumes Service</block>
-  <block id="4bce0cadbd95655804d72e0df4ac6d7b" category="list-text">Microsoft Azure：</block>
   <block id="79c9c43a409053927cc323915dbf1c06" category="list-text">Azure託管磁碟</block>
   <block id="7450cfde7058dc5e1f7909d0280fd7ae" category="list-text">Azure NetApp Files</block>
-  <block id="6c4ff7542dcef16bc12bbbab0c160e9a" category="list-text">使用Web UI或API來實作備份與移轉工作流程</block>
   <block id="b7372905cd310308af0541e07ef5175f" category="list-text">* Astra Control Service*：NetApp託管服務、可在多個雲端供應商環境及自行管理的Kubernetes叢集中、提供Kubernetes叢集的應用程式感知資料管理功能。</block>
   <block id="117bdbda976fe8b3212bc3b6327a0a1b" category="inline-link-macro">Cloud Volumes ONTAP</block>
-  <block id="3be7ceee76706d9dfc15d8f9c233dfb8" category="list-text"><block ref="3be7ceee76706d9dfc15d8f9c233dfb8" category="inline-link-macro-rx"></block></block>
-  <block id="f7173fff9a92f2bab2648f86282ab07c" category="list-text">使用 NetApp SnapMirror 技術（ Astra Control Center ）將應用程式複寫到遠端系統</block>
-  <block id="631928ccc601c8e49976a8d73af28304" category="list-text">將應用程式從接移複製到正式作業</block>
   <block id="db7cdbe16748f17a4795bd3e96b798a0" category="list-text">* Astra Control Center*：自我管理的軟體、可針對在內部部署環境中執行的Kubernetes叢集、提供應用程式感知資料管理功能。Astra Control Center也可安裝在多個雲端供應商環境中、採用NetApp Cloud Volumes ONTAP 的解決方案儲存後端。</block>
-  <block id="aff53210beade5ba79414ae13eb6b73d" category="paragraph">這是您下載、安裝及管理的軟體</block>
   <block id="384c577b472799aa8cd781ce64f2bb34" category="paragraph">在您自己的Kubernetes叢集上</block>
-  <block id="55b6146ebe43b01a290a7aad48a66943" category="list-text">自我管理叢集：</block>
-  <block id="3e69caaf9a57cb5719432beede8b95e7" category="list-text"><block ref="3e69caaf9a57cb5719432beede8b95e7" category="inline-link-macro-rx"></block></block>
-  <block id="3cd945141d6a16b2dc2b3157f739c39f" category="list-text"><block ref="3cd945141d6a16b2dc2b3157f739c39f" category="inline-link-macro-rx"></block></block>
-  <block id="5b18b199efd7629226cef91930cd45e0" category="list-text"><block ref="5b18b199efd7629226cef91930cd45e0" category="inline-link-macro-rx"></block></block>
   <block id="52009bb7ee17227f566cd26a02caee56" category="inline-link-macro"><block ref="52009bb7ee17227f566cd26a02caee56" category="inline-link-rx"></block></block>
   <block id="a1a9afcf552a769c282769271829889a" category="paragraph"><block ref="a1a9afcf552a769c282769271829889a" category="inline-link-macro-rx"></block></block>
   <block id="f99aa604031e5049799e73b5c3748a98" category="inline-link-macro"><block ref="f99aa604031e5049799e73b5c3748a98" category="inline-link-rx"></block></block>
@@ -104,4 +73,68 @@
   <block id="dd38f906b37d412de7d1c1dcf4cbf31c" category="paragraph"><block ref="dd38f906b37d412de7d1c1dcf4cbf31c" category="inline-link-macro-rx"></block></block>
   <block id="8acb58cbd50ef1b468a020ee0bd351d3" category="inline-link-macro"><block ref="8acb58cbd50ef1b468a020ee0bd351d3" category="inline-link-rx"></block></block>
   <block id="2352c4e1f4d0024ade0869e00e6243f4" category="paragraph"><block ref="2352c4e1f4d0024ade0869e00e6243f4" category="inline-link-macro-rx"></block></block>
+  <block id="35766360770e699f50fa8f51d1c6ff36" category="doc">瞭解Astra Control</block>
+  <block id="9323549177620e1dd794512ee7cc0748" category="paragraph">Astra Control 是 Kubernetes 應用程式資料生命週期管理解決方案、可簡化有狀態應用程式的作業、並協助您在混合式和多雲端環境中儲存、保護及移動 Kubernetes 工作負載。</block>
+  <block id="82ec2cd6fda87713f588da75c3b1d0ed" category="section-title">功能</block>
+  <block id="953ad711b5d812e3876fb8a28266ba3e" category="paragraph">* 商店 * ：</block>
+  <block id="1cc20f69146066d58ea30c167da06503" category="list-text">為容器化工作負載提供動態儲存資源配置</block>
+  <block id="40f0627cce837b232dcada830895754a" category="list-text">在執行中加密從容器到持續磁碟區的資料</block>
+  <block id="4d8ebc166f514bc42ed5a5c421a85b7b" category="list-text">跨區域跨區域複寫</block>
+  <block id="f748216a486ca824f2e1350704fdf7cd" category="paragraph">* 保護 * ：</block>
+  <block id="5eea249d5621961399d6b0e6cd549b2a" category="list-text">自動探索及應用程式感知保護整個應用程式及其資料</block>
+  <block id="0905306fb359d754b2fb6b91b4b687b6" category="list-text">根據貴組織的需求、從任何快照版本即時還原應用程式</block>
+  <block id="43130eaaed6187a0c013e3badf7d841a" category="list-text">跨區域、區域和雲端供應商快速容錯移轉</block>
+  <block id="1b329bb5f586d96aac9b868339b54d3c" category="paragraph">* 移動 * ：</block>
+  <block id="fc1049d8b413380216308212cf5b9cd9" category="list-text">在 Kubernetes 叢集與雲端之間、完成應用程式與資料的移動性</block>
+  <block id="1f86e32e0eaaa822d13a5b9730c85ab7" category="list-text">即時複製整個應用程式和資料</block>
+  <block id="b54bcca0ec823f9bf8916580d0df9186" category="list-text">透過一致的 Web UI 和 API 、只需按一下滑鼠即可移轉應用程式</block>
+  <block id="2d242bb36ec91b32005f9296ff03a912" category="section-title">架構</block>
+  <block id="56da5995454440513c0c0a111bb3b132" category="paragraph">Astra Control 的架構可讓 IT 提供進階的資料管理功能、強化 Kubernetes 應用程式的功能與可用度、簡化跨公有雲和內部環境的容器化工作負載的管理、保護及移動、 並透過其 REST API 和 SDK 提供自動化功能、以程式設計方式存取、與現有工作流程無縫整合。</block>
+  <block id="f0f6f0fb4331084912739b8873eea074" category="paragraph">Astra Control 是 Kubernetes 原生產品、可啟用資料保護工作流程、利用自訂資源、同時與現有的 API 和 SDK 保持向下相容。Kubernetes 原生資料保護提供顯著優勢；透過與 Kubernetes API 和資源無縫整合、資料保護可透過組織現有的 CI/CD 和 / 或 GitOps 工具、成為應用程式生命週期的固有部分。</block>
+  <block id="3e9fd553c2a72f2fea1001b682208a54" category="inline-image-macro">Astra Control 架構</block>
+  <block id="28a0c6c94cda259516d07dedb9c854ef" category="paragraph"><block ref="28a0c6c94cda259516d07dedb9c854ef" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="8103c53d603644d4ee7cc959e53cf3a4" category="paragraph">Astra Control 以四個輔助元件為基礎：</block>
+  <block id="4f16f53fe0ab96995516c186edf87fe6" category="list-text">*Astra Control* ： Astra Control 是適用於所有託管叢集的集中式管理服務、可在雲端和內部部署中提供協調的應用程式保護和行動性工作負載、以及下列功能：</block>
+  <block id="51fed4624a5a53152693a41ce5efa15a" category="list-text">多個叢集和雲端的組合檢視</block>
+  <block id="e046b9c3be3479bde3b3259db738a78f" category="list-text">保護協調的工作流程</block>
+  <block id="8dc1680125686fe1458b22e1961b1899" category="list-text">精細的資源視覺化與選擇</block>
+  <block id="4568e5d7e97ee5d6e4866ccd0c1dc770" category="list-text">*Astra Connector* ： Astra Connector 與 Astra Control 團隊可為每個託管叢集提供安全連線、無論連線狀態為何、都能在本機執行排程作業、並具備下列功能：</block>
+  <block id="7655b1a562ca01e9844b38904e5aa812" category="list-text">無論連線狀態為何、都能在本機執行排程的作業</block>
+  <block id="e41d9e394671a0a661bcca4d52b1926b" category="list-text">在叢集之間散佈和最佳化 Astra 系統資源使用率的本機作業</block>
+  <block id="579304cbfdd1e8dd005de8205aa02d54" category="list-text">本機安裝、可讓您以最少的權限存取叢集、以提高安全性</block>
+  <block id="389aa9334cd9e108116e432d44e3be76" category="list-text">* Astra Control Provisioner* ： Astra Control Provisioner 提供核心 CSI 資源配置功能和進階儲存管理功能、以增加安全性和災難恢復組態、以及下列功能：</block>
+  <block id="c965b0e84a84d7b5a6b37d24fb0c0ebd" category="list-text">進階儲存管理：</block>
+  <block id="6b7d4094418426d522e44a55d578c055" category="list-text">從容器到 PV 的資料在執行中加密</block>
+  <block id="378d291dd5c8d9b13457391d74a1c166" category="list-text">SnapMirror Cloud 功能可跨區域跨區域複寫</block>
+  <block id="0aa3c724313cb48f6cecfc8393736174" category="list-text">* Astra 自訂資源 * ：每個叢集上使用的自訂資源提供 Kubernetes 原生方法來在本機執行作業、簡化與其他 Kubernetes 友好工具和自動化的整合、並提供下列功能：</block>
+  <block id="427ee8760fb4e2d4c8d849fa36bab15b" category="list-text">直接生態系統工具整合與自動化工作流程</block>
+  <block id="c7349a414c37176e5941afbe8fd1bf31" category="list-text">可啟用自訂工作流程的低階原元</block>
+  <block id="15bdafd183c9dcdccccb2ef960342018" category="paragraph">Astra Control 提供兩種部署模式。</block>
+  <block id="69f30e071d05cdb4b0b0bde737f44acd" category="inline-image-macro">Astra 部署模型</block>
+  <block id="f173434ed2090211a04c6d1e12673f38" category="paragraph"><block ref="f173434ed2090211a04c6d1e12673f38" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="8b9e0c5eab1aafdd0008e7d94a979a00" category="paragraph">可下載、安裝及管理的軟體</block>
+  <block id="5d169abc26c5e6f92958752c40a56358" category="cell">支援的 Kubernetes 發佈內容為何？</block>
+  <block id="41f1a6b80fe46fb30f51ab1b61f1a992" category="list-text">* 雲端供應商 *</block>
+  <block id="6beccc67ff905f7da0b29dece26b0485" category="list-text">Amazon Web Services</block>
+  <block id="480c9b5f979d1ce95ea2a58b09826d1b" category="list-text">Amazon Elastic Kubernetes Service （ EKS ）</block>
+  <block id="56ef2682280ac110060b881925a87b80" category="list-text">Google Cloud</block>
+  <block id="974030a30a48754684d05541fd5e96c9" category="list-text">Google Kubernetes Engine（GKE）</block>
+  <block id="1668ca1bd914c1d847f23b491319ac91" category="list-text">Microsoft Azure</block>
+  <block id="f28c5620810ae2a6961a1811277a7ff8" category="list-text">Azure Kubernetes服務（KS）</block>
+  <block id="57c997cc6378705850c1e534b71a042d" category="list-text">* 自我管理叢集 *</block>
+  <block id="0770a54f3635e09a4e4ff53a035b9979" category="list-text">Kubernetes （上游）</block>
+  <block id="8c95b632875261344eb6365459feffd0" category="list-text">Rancher Kubernetes引擎（RKE）</block>
+  <block id="fd89bb4228981d3b22187eb451421cd6" category="list-text">Red Hat OpenShift Container Platform</block>
+  <block id="bab5ccef18c501c42d7cf94c7aaa84b3" category="list-text">* 內部叢集 *</block>
+  <block id="d1398a9488bb275cd91d0cb20ce8d256" category="list-text">內部部署 Red Hat OpenShift Container Platform</block>
+  <block id="22ec69733e61456fac578b2f6fcc2856" category="list-text">Azure Stack HCI 上的 Azure Kubernetes 服務</block>
+  <block id="1c4dff0a00340691e103ef63154df371" category="list-text">Google Anthos</block>
+  <block id="a3060d8563d84f399ad045a8f074e953" category="cell">支援的儲存後端有哪些？</block>
+  <block id="38e3b2d02a57ef89462103f8dcf36ab0" category="list-text"><block ref="38e3b2d02a57ef89462103f8dcf36ab0" category="inline-link-rx"></block></block>
+  <block id="ab819072ff4cb02cb39723b20e2ec373" category="list-text"><block ref="ab819072ff4cb02cb39723b20e2ec373" category="inline-link-rx"></block></block>
+  <block id="ec2e9418f579c84a41733c6bb0adb789" category="list-text"><block ref="ec2e9418f579c84a41733c6bb0adb789" category="inline-link-rx"></block></block>
+  <block id="164fe74cfbca9ef543331e42b891cf2c" category="list-text">NetApp MetroCluster</block>
+  <block id="cd27a1715aac859bc2a48a86ed2000c0" category="inline-link">Longhorn</block>
+  <block id="1752f949f63eb1f41cea70be24a2a732" category="list-text"><block ref="1752f949f63eb1f41cea70be24a2a732" category="inline-link-rx"></block></block>
+  <block id="00ae925249b1dcd734cdb679b48bf8f7" category="list-text">NetApp ONTAP Select</block>
 </blocks>

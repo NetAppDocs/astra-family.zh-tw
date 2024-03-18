@@ -23,7 +23,7 @@ product-family:
   - title: 自動化與API
     tags: tag_api
   tiles:
-  - title: 瞭解Astra系列產品
+  - title: 瞭解Astra Control
     icon: "./media/Astra_Family_logo_line.png"
     url: intro-family.html
     summary: 瞭解Astra系列產品。
