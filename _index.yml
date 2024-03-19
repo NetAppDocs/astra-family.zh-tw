@@ -1,0 +1,41 @@
+---
+product-family:
+  title: Astra文件
+  lead: NetApp Astra產品系列提供儲存與應用程式感知資料管理服務、適用於Kubernetes應用程式的內部部署與公有雲、採用NetApp儲存與資料管理技術。
+  summary: NetApp Astra產品系列提供儲存與應用程式感知資料管理服務、適用於Kubernetes應用程式的內部部署與公有雲、採用NetApp儲存與資料管理技術。
+  sidebarlinks:
+  - title: 所有產品
+    tags: tag_all
+    class: active
+  - title: 應用程式資料管理
+    tags: tag_application_data_management
+  - title: 儲存管理
+    tags: tag_storage_management
+  - title: 自動化與API
+    tags: tag_api
+  tiles:
+  - title: 瞭解Astra Control
+    icon: "./media/Astra_Family_logo_line.png"
+    url: intro-family.html
+    summary: 瞭解 Astra Control 。
+    tags: tag_all, tag_application_data_management, tag_storage_management, tag_api
+  - title: Astra控制服務
+    icon: "./media/Astra_Control_logo_line.png"
+    url: "../astra/index.html"
+    summary: 使用由NetApp管理的服務來管理公有雲中Kubernetes工作負載的應用程式感知資料管理。
+    tags: tag_all, tag_application_data_management
+  - title: Astra控制中心
+    icon: "./media/Astra_Control_logo_line.png"
+    url: "../astra-control-center/index.html"
+    summary: 使用自我管理的軟體來管理內部部署Kubernetes工作負載的應用程式感知資料管理。
+    tags: tag_all, tag_application_data_management
+  - title: Astra Trident
+    icon: "./media/Astra_Trident_logo_line2.png"
+    url: "../trident/index.html"
+    summary: 與NetApp儲存供應商合作、針對Kubernetes工作負載使用符合「安全性」標準的儲存資源配置與管理功能。
+    tags: tag_all, tag_storage_management
+  - title: Astra Automation與API
+    icon: "./media/Astra_Family_logo_line.png"
+    url: "../astra-automation/index.html"
+    summary: 使用API和SDK、將Astra工作流程自動化、讓您的作業順利完成。
+    tags: tag_all, tag_api

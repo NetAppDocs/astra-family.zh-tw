@@ -30,26 +30,11 @@
   <block id="2b93b48daf034e4100d00b85950e109d" category="list-text"><block ref="2b93b48daf034e4100d00b85950e109d" category="inline-link-rx"></block></block>
   <block id="eb75aeb3b4b2b9734ba3e52f5483f0b2" category="inline-link">本文檔 ONTAP</block>
   <block id="8217522f2b9eea86f1099a2aba54aebd" category="list-text"><block ref="8217522f2b9eea86f1099a2aba54aebd" category="inline-link-rx"></block></block>
-  <block id="e9c44bbfd795a5d63d74c6a77afee70d" category="summary">法律聲明提供版權聲明、商標、專利等存取權限。</block>
-  <block id="30d965eef5ba25c6b9998ae38270b43e" category="doc">法律聲明</block>
-  <block id="6016a2b341113bf496b719905398ecd2" category="section-title">版權</block>
-  <block id="126a02652da6de02962cf1b654fd6376" category="section-title">商標</block>
-  <block id="c4ce4761e466527d26b3e3d5ed1006fd" category="paragraph">NetApp 、 NetApp 標誌及 NetApp 商標頁面上列出的標章均為 NetApp 、 Inc. 的商標。其他公司與產品名稱可能為其各自所有者的商標。</block>
-  <block id="be89498d2f8a22ce47c02ba9795fe2af" category="section-title">專利</block>
-  <block id="d0b19d36be2c5f16e9aef46c8a452d3d" category="paragraph">如需最新的 NetApp 擁有專利清單、請參閱：</block>
-  <block id="56c34c6410dd45c5cec44149ad0ce037" category="section-title">隱私權政策</block>
-  <block id="c0227cef6f07a8cd2ac72f2945b031aa" category="section-title">開放原始碼</block>
-  <block id="9b73989307c1975dfa4d5e1581e4afe8" category="paragraph">通知檔案提供有關 NetApp 軟體所使用之協力廠商版權與授權的資訊。</block>
-  <block id="108238230cdf60dd0887f944a8d13493" category="inline-link-macro">Astra Control Center 21.008版本注意事項</block>
-  <block id="c720f04897a24c86f93ce764015021d4" category="paragraph"><block ref="c720f04897a24c86f93ce764015021d4" category="inline-link-macro-rx"></block></block>
-  <block id="e81b0f8fae224ca0c3d3258b75a989dd" category="section-title">Astra Control API授權</block>
-  <block id="f7c79ca7f13fd9da78390d5a97db7042" category="paragraph"><block ref="f7c79ca7f13fd9da78390d5a97db7042" category="inline-link-rx"></block></block>
   <block id="2d63f74d9b059520b514097de3c8e2f5" category="sidebar">Astra產品系列文件</block>
   <block id="40dec546414c1ebdfde8d9858f0938c3" category="sidebar">所有產品</block>
   <block id="7c5d8433a062d6a740a01339f0496a43" category="sidebar">應用程式資料管理</block>
   <block id="bfd15aa26ba0ced782240c4a8b7e517e" category="sidebar">儲存管理</block>
   <block id="4fd0a97eaa9f8d1a9bf7332e22654095" category="sidebar">自動化與API</block>
-  <block id="506cb50348b89bb82ceaa4bb08e4b2d8" category="sidebar">瞭解Astra系列產品。</block>
   <block id="a315052239d40dd49d5a66ab5d7c8a1b" category="sidebar">使用由NetApp管理的服務來管理公有雲中Kubernetes工作負載的應用程式感知資料管理。</block>
   <block id="f64830a81babe5853a9db001f89c0d1f" category="sidebar">使用自我管理的軟體來管理內部部署Kubernetes工作負載的應用程式感知資料管理。</block>
   <block id="e0f4a858a15b865d90b24b46633e2899" category="sidebar">與NetApp儲存供應商合作、針對Kubernetes工作負載使用符合「安全性」標準的儲存資源配置與管理功能。</block>
@@ -65,14 +50,6 @@
   <block id="117bdbda976fe8b3212bc3b6327a0a1b" category="inline-link-macro">Cloud Volumes ONTAP</block>
   <block id="db7cdbe16748f17a4795bd3e96b798a0" category="list-text">* Astra Control Center*：自我管理的軟體、可針對在內部部署環境中執行的Kubernetes叢集、提供應用程式感知資料管理功能。Astra Control Center也可安裝在多個雲端供應商環境中、採用NetApp Cloud Volumes ONTAP 的解決方案儲存後端。</block>
   <block id="384c577b472799aa8cd781ce64f2bb34" category="paragraph">在您自己的Kubernetes叢集上</block>
-  <block id="52009bb7ee17227f566cd26a02caee56" category="inline-link-macro"><block ref="52009bb7ee17227f566cd26a02caee56" category="inline-link-rx"></block></block>
-  <block id="a1a9afcf552a769c282769271829889a" category="paragraph"><block ref="a1a9afcf552a769c282769271829889a" category="inline-link-macro-rx"></block></block>
-  <block id="f99aa604031e5049799e73b5c3748a98" category="inline-link-macro"><block ref="f99aa604031e5049799e73b5c3748a98" category="inline-link-rx"></block></block>
-  <block id="5d545fe5152641e2ebe654e336e520e5" category="paragraph"><block ref="5d545fe5152641e2ebe654e336e520e5" category="inline-link-macro-rx"></block></block>
-  <block id="88e5eabd3917048b6927c42496b98f86" category="inline-link-macro"><block ref="88e5eabd3917048b6927c42496b98f86" category="inline-link-rx"></block></block>
-  <block id="dd38f906b37d412de7d1c1dcf4cbf31c" category="paragraph"><block ref="dd38f906b37d412de7d1c1dcf4cbf31c" category="inline-link-macro-rx"></block></block>
-  <block id="8acb58cbd50ef1b468a020ee0bd351d3" category="inline-link-macro"><block ref="8acb58cbd50ef1b468a020ee0bd351d3" category="inline-link-rx"></block></block>
-  <block id="2352c4e1f4d0024ade0869e00e6243f4" category="paragraph"><block ref="2352c4e1f4d0024ade0869e00e6243f4" category="inline-link-macro-rx"></block></block>
   <block id="35766360770e699f50fa8f51d1c6ff36" category="doc">瞭解Astra Control</block>
   <block id="9323549177620e1dd794512ee7cc0748" category="paragraph">Astra Control 是 Kubernetes 應用程式資料生命週期管理解決方案、可簡化有狀態應用程式的作業、並協助您在混合式和多雲端環境中儲存、保護及移動 Kubernetes 工作負載。</block>
   <block id="82ec2cd6fda87713f588da75c3b1d0ed" category="section-title">功能</block>
@@ -137,4 +114,5 @@
   <block id="cd27a1715aac859bc2a48a86ed2000c0" category="inline-link">Longhorn</block>
   <block id="1752f949f63eb1f41cea70be24a2a732" category="list-text"><block ref="1752f949f63eb1f41cea70be24a2a732" category="inline-link-rx"></block></block>
   <block id="00ae925249b1dcd734cdb679b48bf8f7" category="list-text">NetApp ONTAP Select</block>
+  <block id="7f79fef7297469596e52ca65df8b3d0a" category="sidebar">瞭解 Astra Control 。</block>
 </blocks>
