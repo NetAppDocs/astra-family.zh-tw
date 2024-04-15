@@ -91,7 +91,7 @@ Astra Control 以四個輔助元件為基礎：
 
 Astra Control 提供兩種部署模式。
 
-image:astra-architecture-diagram-v6.png["Astra 部署模型"]
+image:astra-architecture-diagram-v7.png["Astra 部署模型"]
 
 * * Astra Control Service*：NetApp託管服務、可在多個雲端供應商環境及自行管理的Kubernetes叢集中、提供Kubernetes叢集的應用程式感知資料管理功能。
 +
@@ -150,7 +150,7 @@ https://docs.netapp.com/us-en/astra-control-center/["Astra Control Center文件"
 ** Red Hat OpenShift Container Platform
 
 
-* * 內部叢集 *
+* * 內部部署叢集 *
 +
 ** 內部部署 Red Hat OpenShift Container Platform
 
@@ -202,7 +202,7 @@ https://docs.netapp.com/us-en/astra-control-center/["Astra Control Center文件"
 ** https://longhorn.io/["Longhorn"^]
 
 
-* * 內部叢集 *
+* * 內部部署叢集 *
 +
 ** NetApp MetroCluster
 ** NetApp ONTAP AFF 的功能與FAS 功能

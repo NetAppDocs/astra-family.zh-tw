@@ -87,8 +87,6 @@
   <block id="427ee8760fb4e2d4c8d849fa36bab15b" category="list-text">直接生態系統工具整合與自動化工作流程</block>
   <block id="c7349a414c37176e5941afbe8fd1bf31" category="list-text">可啟用自訂工作流程的低階原元</block>
   <block id="15bdafd183c9dcdccccb2ef960342018" category="paragraph">Astra Control 提供兩種部署模式。</block>
-  <block id="69f30e071d05cdb4b0b0bde737f44acd" category="inline-image-macro">Astra 部署模型</block>
-  <block id="f173434ed2090211a04c6d1e12673f38" category="paragraph"><block ref="f173434ed2090211a04c6d1e12673f38" category="inline-image-macro-rx" type="image"></block></block>
   <block id="8b9e0c5eab1aafdd0008e7d94a979a00" category="paragraph">可下載、安裝及管理的軟體</block>
   <block id="5d169abc26c5e6f92958752c40a56358" category="cell">支援的 Kubernetes 發佈內容為何？</block>
   <block id="41f1a6b80fe46fb30f51ab1b61f1a992" category="list-text">* 雲端供應商 *</block>
@@ -102,8 +100,6 @@
   <block id="0770a54f3635e09a4e4ff53a035b9979" category="list-text">Kubernetes （上游）</block>
   <block id="8c95b632875261344eb6365459feffd0" category="list-text">Rancher Kubernetes引擎（RKE）</block>
   <block id="fd89bb4228981d3b22187eb451421cd6" category="list-text">Red Hat OpenShift Container Platform</block>
-  <block id="bab5ccef18c501c42d7cf94c7aaa84b3" category="list-text">* 內部叢集 *</block>
-  <block id="d1398a9488bb275cd91d0cb20ce8d256" category="list-text">內部部署 Red Hat OpenShift Container Platform</block>
   <block id="22ec69733e61456fac578b2f6fcc2856" category="list-text">Azure Stack HCI 上的 Azure Kubernetes 服務</block>
   <block id="1c4dff0a00340691e103ef63154df371" category="list-text">Google Anthos</block>
   <block id="a3060d8563d84f399ad045a8f074e953" category="cell">支援的儲存後端有哪些？</block>
@@ -115,4 +111,8 @@
   <block id="1752f949f63eb1f41cea70be24a2a732" category="list-text"><block ref="1752f949f63eb1f41cea70be24a2a732" category="inline-link-rx"></block></block>
   <block id="00ae925249b1dcd734cdb679b48bf8f7" category="list-text">NetApp ONTAP Select</block>
   <block id="7f79fef7297469596e52ca65df8b3d0a" category="sidebar">瞭解 Astra Control 。</block>
+  <block id="e2a57f6b4c1a4fc07e57320580de76c4" category="inline-image-macro">Astra 部署模型</block>
+  <block id="ed910480be660ce44964d26abfc6a0d8" category="paragraph"><block ref="ed910480be660ce44964d26abfc6a0d8" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="8e9845a2b1617722638d4b2716d9e349" category="list-text">* 內部部署叢集 *</block>
+  <block id="fae11419c337e3427841a0c9b9d592f9" category="list-text">內部部署 Red Hat OpenShift Container Platform</block>
 </blocks>
