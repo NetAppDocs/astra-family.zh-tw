@@ -30,7 +30,7 @@ product-family:
     summary: 使用自我管理的軟體來管理內部部署Kubernetes工作負載的應用程式感知資料管理。
     tags: tag_all, tag_application_data_management
   - title: Astra Trident
-    icon: "./media/Astra-Trident-logo.png"
+    icon: "./media/Astra-Trident-logo2.png"
     url: "../trident/index.html"
     summary: 與NetApp儲存供應商合作、針對Kubernetes工作負載使用符合「安全性」標準的儲存資源配置與管理功能。
     tags: tag_all, tag_storage_management
